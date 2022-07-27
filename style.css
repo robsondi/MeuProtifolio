@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
 }
-html, body {
-   min-width: 200px;
-}
+
 
 /*navegar*/
 #menu{   
-    
+    text-align: center;
     font-size: 18px;
     padding: 15px;
-    text-align: center;
     background-color: #15C2B1;
     list-style: none;
   
@@ -23,12 +20,12 @@ html, body {
 }
 
 #menu li a {
-   
+   min-width: auto;
     color: rgb(16, 17, 17);
     text-decoration: none;
 }
 img{
-    width: 80px;
+    width: 50px;
 }
 /*SEÇÃO*/
 h1{
@@ -37,7 +34,8 @@ h1{
 }
 div p {
     padding: 10px 20px 30px;
-    width: 300px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 span a{
@@ -49,7 +47,7 @@ span a{
 }
 /*RODAPÉ*/
 footer {
-    
+    width: 100%;
     color: rgb(10, 10, 10);
     font-size: 18px;
     padding: 20px;
